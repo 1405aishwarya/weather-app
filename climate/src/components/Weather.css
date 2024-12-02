@@ -1,0 +1,115 @@
+body {
+  background-color: #121212; /* Dark background */
+  color: #FFFFFF; /* Light text color */
+}
+
+.weather {
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffffff; /* Lighter dark color for better visibility */
+  color: #FFF; /* Light input text color */
+}
+
+.search-bar img {
+  cursor: pointer;
+  width: 30px;
+  margin-left: 10px; /* Add some spacing between input and icon */
+}
+
+.city-name {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Current Weather Card */
+.current-weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E1E1E;
+  color: #FFF;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.current-weather-icon {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.current-weather-info {
+  text-align: left;
+}
+
+.current-temperature {
+  font-size: 3em;
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.current-description {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* 7-Day Forecast Cards */
+.forecast-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.forecast-day {
+  background-color: #1E1E1E; /* Dark card background */
+  color: #FFF; /* Light text color */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  flex: 1 1 30%; /* Responsive sizing */
+  text-align: center;
+}
+
+.weather-icon {
+  width: 50px; /* Adjust size as needed */
+}
+.humid {
+  width: 30px; /* Adjust size as needed */
+}
+.windy{
+  width:40px;
+  
+}
+
+.date {
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 1.5em;
+  color: #FFD700; /* Gold color for temperature */
+}
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

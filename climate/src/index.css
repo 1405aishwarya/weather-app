@@ -1,0 +1,55 @@
+/* index.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #00aaff, #f0f4f8);
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.weather {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+/* Add some responsiveness */
+@media (max-width: 768px) {
+  .forecast-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-bar input {
+    width: 200px;
+  }
+}
